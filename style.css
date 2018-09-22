@@ -1,0 +1,153 @@
+html {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+	color: var(--grey);
+
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: var(--darkGrey);
+}
+
+:root {
+--green: #96ceb4;
+
+--paleYellow: #ffeead;
+
+--mustard: #ffcc5c;
+
+--pink: #ff6f69;
+
+--white: white;
+
+--grey: #F0F0F0;
+
+--darkGrey: #808080;
+}
+
+.profile {
+	max-height: 500px;
+	
+}
+
+#header {
+	padding-top: 20px;
+}
+
+
+.bg-1 {
+	background-color: var(--grey);
+}
+
+
+.bg-2 {
+	background-color: var(--green);
+}
+
+.bg-3 {
+	background-color: var(--white);
+	
+}
+
+.bg-4 {
+	background-color: var(--green);
+}
+
+.content {
+	padding-top: 70px;
+	padding-bottom: 70px;
+
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+h4 {
+	font-size: 1.5rem;
+
+}
+
+.img-responsive {
+	max-height: 300px;
+	margin: 0 auto;
+	padding: 10px 10px 20px 10px;
+	
+}
+
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0px;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: var(--mustard) !important;
+}
+
+.navbar-brand:hover {
+	color: var(--mustard) !important;
+}
+
+
+
+.footer {
+	background-color: var(--white);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.name {
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 3px;
+	color: #808080;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+i {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	}
+
+#about h3 {
+	color: var(--white);
+}
+
+#skills h3 {
+	color: var(--mustard);
+}
+
+#skills p {
+	padding-bottom: 30px;
+}
+
+
+@media (max-width: 700px) {
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	h3 {
+		font-size: 1.7rem;
+	}
+
+	i {
+		font-size: 1rem;
+	}
+}
